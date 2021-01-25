@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 0;
+    text-align: left;
+}
+header {
+    font-size: 44px;
+    color: white;
+    background-color: #004175;
+    border-bottom: #89DEEF;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    padding: 3%;
+    text-align: left;
+}
+h1, p {
+    margin-left: 3%;
+}
+.shelter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1%;
+}
+.dogs {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;   
+}
+.dogs img {
+    width: 100%;
+}
+.dog-name {
+    font-family: 'Oswald';
+    font-weight: 700;
+}
+.dog-traits {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+.dog-traits li {
+    list-style: none;
+    margin: 8px;
+    background-color: #89DEEF;
+    border-color: #89DEEF;
+    border-radius: 40%;
+    padding: 0 5px;
+    /* font-family: */
+}
+.footer-bar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(166,169,240,0.45),rgba(166,169,240,0.45)), url(starter_files/images/donate.jpg);
+    flex: 1 1 auto;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(166,169,240,0.45),rgba(166,169,240,0.45)), url(starter_files/images/volunteer.jpg);
+    flex: 1 1 auto;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(166,169,240,0.45),rgba(166,169,240,0.45)), url(starter_files/images/location.png);
+    flex: 1 1 auto;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.donate p {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.volunteer p {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.location p {
+    text-align: center;    
+    color: white;
+    font-size: 42px;    
+}
